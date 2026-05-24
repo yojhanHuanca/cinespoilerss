@@ -1,31 +1,9 @@
 # CineSpoilerS
 
-Proyecto desarrollado con React, TypeScript y Vite.
-
 ## Datos del estudiante
 
 - Nombre: Yojhan Huanca Yucra
 - Tema: Componentes, props y manejo de estado en React
-
-## Descripcion del proyecto
-
-CineSpoilerS es una aplicacion web sencilla creada para practicar React. En el proyecto se implemento un componente `Card`, el cual recibe informacion mediante props y muestra un contador de likes usando el hook `useState`.
-
-## Tecnologias utilizadas
-
-- React
-- TypeScript
-- Vite
-- CSS
-
-## Funcionalidades
-
-- Creacion de una aplicacion React con Vite.
-- Configuracion del favicon de la pagina.
-- Creacion del componente `Card`.
-- Envio de datos al componente usando props.
-- Manejo de estado con `useState`.
-- Boton interactivo para aumentar likes.
 
 ## Evidencias
 
