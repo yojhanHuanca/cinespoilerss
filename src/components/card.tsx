@@ -1,14 +1,25 @@
+import { useState } from 'react';
+
 type CardProps = {
-  name: string;
-  role: string;
+  title: string;
+  description: string;
 };
 
-function Card({ name, role }: CardProps) {
+function Card({ title, description }: CardProps) {
+  const [likes, setLikes] = useState(0);
+
+  const handleClick = () => {
+    setLikes(likes + 1);
+  };
+
   return (
-    <article className="card">
-      <h2>{name}</h2>
-      <p>{role}</p>
-    </article>
+    <div className="card">
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <button className="button" onClick={handleClick}>
+        Likes {likes}
+      </button>
+    </div>
   );
 }
 
